@@ -1,0 +1,6 @@
+#Editor Folders
+.idea/
+
+#Other Folders
+bower_components/
+node_modules/
