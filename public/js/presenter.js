@@ -1,4 +1,4 @@
-var socket = io();
+var socket = io('/a');
 function gotoSlide(index) {
     $('.preview-slide.active').removeClass('active');
     $($('.preview-slide')[index]).addClass('active');

@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>LiveSlide</title>
-    <link rel="stylesheet" type="text/css" href="/css/client.css">
+    <link rel="stylesheet" type="text/css" href="/css/presenter.css">
 </head>
 <body>
     <div class="container">
@@ -18,10 +18,28 @@
             <div class="slide" index="8" style="display:none;">9</div>
             <div class="slide" index="9" style="display:none;">10</div>
         </div>
+
+        <div class="controls">
+            <a id="prev" class="control" href="javascript:;">&lt; Prev</a>
+            <a id="next" class="control" href="javascript:;">Next &gt;</a>
+        </div>
+    </div>
+
+    <div class="preview-slides">
+        <div class="preview-slide" index="0">1</div>
+        <div class="preview-slide" index="1">2</div>
+        <div class="preview-slide" index="2">3</div>
+        <div class="preview-slide" index="3">4</div>
+        <div class="preview-slide" index="4">5</div>
+        <div class="preview-slide" index="5">6</div>
+        <div class="preview-slide" index="6">7</div>
+        <div class="preview-slide" index="7">8</div>
+        <div class="preview-slide" index="8">9</div>
+        <div class="preview-slide" index="9">10</div>
     </div>
 
 <script src="/socket.io/socket.io.js"></script>
 <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
-<script src="/js/client.js"></script>
+<script src="/js/presenter.js"></script>
 </body>
 </html>
